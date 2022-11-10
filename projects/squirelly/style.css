@@ -1,0 +1,59 @@
+<style>
+.{ /*<--I Have This Here Because For Some Reason Any Code At The Top Won't Work*/
+}
+a{
+	text-decoration: none
+}
+
+/* unvisited link */
+a:link {
+ color: black
+}
+/*visited*/
+a:visited{
+color: black
+}
+a:hover{
+color: #d3d3d3d3
+}
+body{
+	background-color: #009900;
+	font-family: Verdana;
+	color: yellow
+}
+header{
+	text-align: center
+}
+h1{
+	text-align: center
+}
+h3{
+	text-align: center
+}
+div{
+	text-align: center
+}
+footer{
+	text-align: center
+}
+address{
+	text-align: center
+}
+blockquote{
+	text-align: center
+}
+p{
+	text-align: center
+}
+section{
+	text-align: center
+}
+table{
+	text-align: center
+}
+table{
+	color: black
+}
+td{
+	width:100%
+}
