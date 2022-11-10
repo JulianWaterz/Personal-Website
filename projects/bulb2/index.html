@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<!--
+	Program Name: JavaScript Light Bulb
+	Programmers Name: Julian Waters
+	Program Purpose: This Uses HTML, JavaScript, And Css.
+	The Program Is To Show How A Button Can Change The Websites Looks
+	The Button Changes Text Color, Background Color, And Two Images.
+-->
+<html lang="en-US">
+	
+	<head>
+		<title>Light Bulb</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	
+	<body id="body">
+		<div id="text">
+			<h1>JavaScript can change HTML Attribute values</h1>
+			<p>Click the ON button to turn on the switch and light bulb</p>
+			<p>Click the OFF button to turn off the switch and light bulb</p>
+		</div>
+		
+		<input type="button" value="ON" onclick="document.getElementById('myImage').src='onSwitch.gif'; document.getElementById('body').style.backgroundColor='white'; document.getElementById('text').style.color='black';
+		document.getElementById('bulb').src = 'bon.gif';">
+		<input type="button" value="OFF" onclick="document.getElementById('myImage').src = 'offSwitch.gif';		document.getElementById('body').style.backgroundColor='black';
+		document.getElementById('text').style.color='white';
+		document.getElementById('bulb').src = 'boff.gif';">
+		<br>
+		<img src="offSwitch.gif" alt="On And Off Switch" width="150px" id="myImage">
+		<br>
+		<img src="boff.gif" alt="lightbulb off" width="120px" id="bulb">
+	</body>
+</html>

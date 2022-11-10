@@ -1,0 +1,10 @@
+/*This Is The Simple CSS Style Sheet For My Light Bulb Assignment, It Initiates The Website To Have Black Background, White Text, And The Sans-Serif Font Family. And All The Images To Be In The Off State.*/
+body{
+	
+	background-color: black;
+	text-align: center;
+}
+#text{
+	font-family: sans-serif;
+	color: white;
+}
