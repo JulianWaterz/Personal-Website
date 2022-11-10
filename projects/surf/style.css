@@ -1,0 +1,38 @@
+<style>
+a{
+	text-decoration: none
+}
+
+/* unvisited link */
+a:link {
+ color: black
+}
+/*visited*/
+a:visited{
+color: black
+}
+a:hover{
+color: #d3d3d3d3
+}
+body{
+	background-image: url('img/orangetexture.gif'); 
+	font-family: Lucida Sans Unicode
+}
+header{
+	text-align:center
+}
+div{
+	text-align:center
+}
+iframe{
+	text-align:center
+}
+footer{
+	text-align:center
+}
+.branding{
+	font-style:italic
+}
+#content{
+	padding: ;30px
+}
